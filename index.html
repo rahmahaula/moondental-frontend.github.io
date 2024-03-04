@@ -1,0 +1,1216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moon Dental Clinic</title>
+    <link rel="icon" href="image/logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--NAVBAR-->
+    <nav class="container-fluid navbar navbar-expand-lg sticky-top mt-3 ">
+        <div class="container">
+            <a href="index.html">
+                <img class="logo" src="image/logo.png" alt="">
+                <a class="navbar-brand theme-text" href="#menu"></a>
+            </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Moon Dental</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+              <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link act" aria-current="page" href="#menu">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#doctors">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#locations">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+          </div>
+        </div>
+    </nav>
+    <!--END NAVBAR-->
+
+    <!--CAROUSEL-->
+    <div id="carouselExampleInterval" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="image/Carousel/carousel-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="image/Carousel/carousel-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="image/Carousel/carousel-3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--END CAROUSEL-->
+
+      <!--ABOUT US-->
+      <div class="container">
+      <div class="mb-4">
+        <span class="title fw-semibold" style="color: #88bc67;"><center>What is Moon Dental?</center></span>
+      </div>
+      <div class=about-us>
+        <p class="info fw-normal text-center">Moon Dental has become a trusted clinic for patients with teeth and gum problems with good service. With branches spread across Jakarta, Bogor, Depok and Bekasi, Moon Dental is ready to serve you at any time.</p>
+      </div>
+      </div>
+      <!--END ABOUT US-->
+
+      <!--ABOUT US 2-->
+        <div class="container d-flex cards-wrapper mt-5">
+            <div class="row gy-4">
+              <div class="col-md-3 col-sm-6 col-6">
+                <div class="card border-0" >
+                  <img src="image/Aset/Dokter.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Certified Doctors</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6">
+                <div class="card border-0" >
+                  <img src="image/Aset/easylocation.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Easy Locations</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6">
+                <div class="card border-0" >
+                  <img src="image/Aset/Services.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Good Services</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6">
+                <div class="card border-0" >
+                  <img src="image/Aset/promo.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center">Best Promo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+          </div>
+          <!--END ABOUT US 2-->
+
+      <!--SERVICES-->
+      <div id="services"></div>
+        <div class="container mt-5">
+            <div class="mb-4">
+                <span class="title fw-semibold" style="color: #88bc67;"><center>Our Services</center></span>
+                <div>
+                  <p class="info mt-4 fw-normal text-center">We provides several services to maintain your healthy teeth and gum.</p>
+                </div>
+            </div>
+            <div class="row gy-4 mt-5">
+                <div class="col-md-4 col-sm-6">
+                  <div class="card" >
+                    <img src="image/Services/DentalFilling.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-title">Dental Filling</p>
+                      <p class="card-text">Start from Rp 100.000</p>
+                      <p class="card-text deskripsi text-muted">Using advanced technology and long-lasting materials to repair your tooth decay.</p>
+                      <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#dental-filling-modal">Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                      <!-- Modal -->
+                        <div class="modal fade" id="dental-filling-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">DENTAL FILLING</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body fw-light">
+                                <p>With more than 100 cases each month, we handle cavity fillings with high-quality materials and the latest dental technology for natural-looking results.</p>
+                                <p>What's best about this?</p>
+                                <ul style="list-style-type: none;" class="ps-0">
+                                  <li>&#10004; Treatment by Specialist Conservative Dentists</li>
+                                  <li>&#10004; Best quality care for various cavity issues</li>
+                                  <li>&#10004; Natural-looking results for cavity fillings</li>
+                                  <li>&#10004; State-of-the-art dental equipment</li>
+                                  <li>&#10004; Safe with Health Protocols following WHO standards</li>
+                                  <li>&#10004; Diverse payment methods, including cashless and insurance</li>
+                                </ul>
+                                <p class="fw-normal">PRICE START FROM Rp 100.000</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--End Modal-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="card" >
+                    <img src="image/Services/TeethWhitening.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-title">Teeth Whitening</p>
+                      <p class="card-text">Start from Rp 350.000</p>
+                      <p class="card-text deskripsi text-muted">Use safe and effective methods to remove stains and whiten your teeth.</p>
+                      <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#teeth-whitening-modal">Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                      <!-- Modal -->
+                      <div class="modal fade" id="teeth-whitening-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-uppercase" id="staticBackdropLabel">Teeth Whitening</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body fw-light">
+                              <p>Teeth whitening is a method to make teeth appear whiter yet natural and healthy.</p>
+                              <p>What's best about this?</p>
+                              <ul style="list-style-type: none;" class="ps-0">
+                                <li>&#10004; Ideal treatment choice for a naturally bright smile</li>
+                                <li>&#10004; Handled by Expert Aesthetic Dentists</li>
+                                <li>&#10004; Advanced dental equipment with the latest technology</li>
+                                <li>&#10004; High-quality, USA-made bleaching materials</li>
+                                <li>&#10004; Comfortable, painless procedure</li>
+                                <li>&#10004; Instant results in one visit</li>
+                              </ul>
+                              <p class="fw-normal">PRICE START FROM Rp 350.000</p>
+                              </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Modal-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="card" >
+                    <img src="image/Services/OrthodonticBraces.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-title">Orthodontic Braces</p>
+                      <p class="card-text">Start from Rp 1.500.000</p>
+                      <p class="card-text deskripsi text-muted">Our team of experts will design orthodontic treatment to suit your unique dental needs. </p>
+                      <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#orthodontic-braces-modal" >Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                      <!-- Modal -->
+                      <div class="modal fade" id="orthodontic-braces-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-uppercase" id="staticBackdropLabel">Orthodontic Braces</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body fw-light">
+                              <p>With quality braces and proper maintenance, we offer options for teeth straightening.</p>
+                              <p>What's best about this?</p>
+                              <ul style="list-style-type: none;" class="ps-0">
+                                <li>&#10004; Managed by Expert and Experienced Orthodontists</li>
+                                <li>&#10004; Handling thousands of cases with optimal results</li>
+                                <li>&#10004; Comprehensive choice of braces</li>
+                                <li>&#10004; Conveniently located clinics</li>
+                                <li>&#10004; 0% installment program without down payment</li>
+                              </ul>
+                              <p class="fw-normal">PRICE START FROM Rp 1.500.000</p>
+                              </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Modal-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card" >
+                      <img src="image/Services/Dentures.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title">Dentures</p>
+                        <p class="card-text">Start from Rp 525.000</p>
+                      <p class="card-text deskripsi text-muted">With comfortable and aesthetically dentures, we help you restore the function of your teeth.</p>
+                        <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#dentures-modal">Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                        <!-- Modal -->
+                      <div class="modal fade" id="dentures-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-uppercase" id="staticBackdropLabel">Dentures</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body fw-light">
+                              <p>Dentures are a treatment option to replace lost or extracted teeth.</p>
+                              <p>What's best about this?</p>
+                              <ul style="list-style-type: none;" class="ps-0">
+                                <li>&#10004; Restores lost teeth function</li>
+                                <li>&#10004; Managed by Specialist Prosthodontists</li>
+                                <li>&#10004; Various options for denture types</li>
+                                <li>&#10004; State-of-the-art dental equipment</li>
+                              </ul>
+                              <p class="fw-normal">PRICE START FROM Rp 525.000</p>
+                              </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Modal-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="card" >
+                      <img src="image/Services/DentalCare.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title">Dental Care</p>
+                        <p class="card-text">Start from Rp 200.000</p>
+                      <p class="card-text deskripsi text-muted">Professional dental cleanings to ensure your teeth and gums stay healthy.</p>
+                        <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#dental-care-modal" >Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                        <!-- Modal -->
+                      <div class="modal fade" id="dental-care-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-uppercase" id="staticBackdropLabel">Dental Care</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body fw-light">
+                              <p>This procedure aims to clean and eliminate infections in the root canal of a tooth, the cavity in the middle containing blood vessels and nerves that can harbor bacteria if a cavity is too deep or large.</p>
+                              <p>What's best about this?</p>
+                              <ul style="list-style-type: none;" class="ps-0">
+                                <li>&#10004; Procedure handled by Specialist Conservative Dentists</li>
+                                <li>&#10004; Experienced in handling complex cases</li>
+                                <li>&#10004; Diverse payment methods, including cashless and insurance</li>
+                                <li>&#10004; Root canal treatment options in one visit</li>
+                              </ul>
+                              <p class="fw-normal">PRICE START FROM Rp 200.000</p>
+                              </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Modal-->
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="card" >
+                    <img src="image/Services/ToothExtraction.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-title">Tooth Extraction</p>
+                      <p class="card-text">Start from Rp 85.000</p>
+                      <p class="card-text deskripsi text-muted">Pay special attention to ensuring a speedy recovery after the tooth extraction procedure.</p>
+                      <a href="#" class="btn btn-reserve" data-bs-toggle="modal" data-bs-target="#tooth-extraction-modal">Details <img class="next-icon" src="image/carbon_next-filled.png" alt=""></a>
+                      <!-- Modal -->
+                      <div class="modal fade" id="tooth-extraction-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-uppercase" id="staticBackdropLabel">Tooth Extraction</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body fw-light">
+                              <p>For tooth extraction issues, we can handle your dental problems with care. With expert dentists, you will receive treatment and advice for your dental health.</p>
+                              <p>What's best about this?</p>
+                              <ul style="list-style-type: none;" class="ps-0">
+                                <li>&#10004; Painless process</li>
+                                <li>&#10004; Handled by expert dentists</li>
+                                <li>&#10004; Affordable prices</li>
+                                <li>&#10004; Safe and comfortable tools</li>
+                              </ul>
+                              <p class="fw-normal">PRICE START FROM Rp 85.000</p>
+                              </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-reserve fw-medium" href="reservation.html" role="button" data-bs-toggle="modal" data-bs-target="#reservationform-modal">RESERVE NOW</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Modal-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+        </div>
+        <!--END SERVICES-->
+
+        <!--DOCTORS-->
+        <div id="doctors"></div>
+        <div class="container mt-5">
+          <div class="mb-5">
+            <span class="title fw-semibold" style="color: #88bc67;"><center>Excellent Doctors</center></span>
+            <div>
+              <p class="info mt-4 fw-normal text-center">With specialist doctors that spread across our branches to take care of your teeth and gum.</p>
+            </div>
+          </div>
+
+       <!--
+          <div class="custom-select">
+          <select id="categoryDropdown" onchange="filterSelection(this.value)">
+            <option value="all"class="dropdown" onclick="filterSelection('all')">All</option>
+            <option value="Jakarta" class="dropdown" onclick="filterSelection('Jakarta')">Jakarta</option>
+            <option value="Bogor" class="dropdown" onclick="filterSelection('Animals')">Bogor</option>
+            <option value="Depok" class="dropdown" onclick="filterSelection('Fruits')">Depok</option>
+            <option value="Bekasi" class="dropdown" onclick="filterSelection('Colors')">Bekasi</option>
+          </select>
+        </div>
+        -->
+          
+
+
+          <div class="container d-flex cards-wrapper mt-5">
+            <div class="row gy-4">
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#alya">
+                  <img src="image/Dokter/Alya.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Alya Shafira</p>
+                    <p class="text-muted text-center deskripsi fw-light">Monday - Thursday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Jakarta</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#keenan">
+                  <img src="image/Dokter/Keenan.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Keenan Alaska</p>
+                    <p class="text-muted text-center deskripsi fw-light">Wednesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Jakarta</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#sabrina">
+                  <img src="image/Dokter/Sabrina Nurul.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Sabrina Nurul</p>
+                    <p class="text-muted text-center deskripsi fw-light">Tuesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Jakarta</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#fara">
+                  <img src="image/Dokter/Fara.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Fara Arafa</p>
+                    <p class="text-muted text-center deskripsi fw-light">Thursday - Monday </p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Jakarta</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#mikail">
+                  <img src="image/Dokter/Mikail.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Mikail Azizi</p>
+                    <p class="text-muted text-center deskripsi fw-light">Monday - Wednesday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bogor</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#camel">
+                  <img src="image/Dokter/Camel.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Camel Sania</p>
+                    <p class="text-muted text-center deskripsi fw-light">Tuesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bogor</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#rifqi">
+                  <img src="image/Dokter/Rifqi.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Rifqi Zaynudin</p>
+                    <p class="text-muted text-center deskripsi fw-light">Wednesday - Monday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bogor</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#reyza">
+                  <img src="image/Dokter/Reyza.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Reyza Abdul</p>
+                    <p class="text-muted text-center deskripsi fw-light">Monday - Thursday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Depok</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#mutiara">
+                  <img src="image/Dokter/Mutiara.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Mutiara Annisa</p>
+                    <p class="text-muted text-center deskripsi fw-light">Tuesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Depok</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#syahra">
+                  <img src="image/Dokter/Syahra.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Syahra lara</p>
+                    <p class="text-muted text-center deskripsi fw-light">Thursday - Monday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Depok</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#zoana">
+                  <img src="image/Dokter/Zoana.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Zoana Azwana</p>
+                    <p class="text-muted text-center deskripsi fw-light">Monday - Wednesday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bekasi</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#aditya">
+                  <img src="image/Dokter/Aditya.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Aditya</p>
+                    <p class="text-muted text-center deskripsi fw-light">Tuesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bekasi</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#ralfino">
+                  <img src="image/Dokter/Ralfino.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Ralfino Arya</p>
+                    <p class="text-muted text-center deskripsi fw-light">Wednesday - Friday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bekasi</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-2 col-sm-6 col-6">
+                <div class="card card-doctor" data-bs-toggle="modal" data-bs-target="#ashira">
+                  <img src="image/Dokter/Ashira.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-medium deskripsi">Drg. Ashira Mita</p>
+                    <p class="text-muted text-center deskripsi fw-light">Friday - Monday</p>
+                    <p class="text-muted text-center deskripsi fw-light">Branches : Bekasi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+          </div>
+         </div>
+
+         <!--MODAL DOCTORS-->
+         <!--Alya-->
+          <div class="modal fade" id="alya" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Alya Shafira</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Monday 08.30 AM - 03.00 PM</p>
+                  <p>Tuesday 12.00 PM - 09.00 PM</p>
+                  <p>Wednesday 03.00 AM - 09.00 PM</p>
+                  <p>Thursday 08.30 AM - 12.00 AM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Jakarta</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Keenan-->
+          <div class="modal fade" id="keenan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Keenan Alaska</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Wednesday 08.30 AM - 03.00 PM</p>
+                  <p>Thursday 08.00 AM - 03.00 PM</p>
+                  <p>Friday 12.00 PM - 09.00 PM</p>
+                  <p>Thursday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Jakarta</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Sabrina Nurul-->
+          <div class="modal fade" id="sabrina" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Sabrina Nurul</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Tuesday 08.30 AM - 03.00 PM</p>
+                  <p>Wednesday 08.00 AM - 03.00 PM</p>
+                  <p>Thursday 12.00 PM - 09.00 PM</p>
+                  <p>Friday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Jakarta</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Fara-->
+          <div class="modal fade" id="fara" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Fara Arafa</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Thursday 08.30 AM - 03.00 PM</p>
+                  <p>Friday 08.00 AM - 03.00 PM</p>
+                  <p>Saturday 12.00 PM - 09.00 PM</p>
+                  <p>Sunday 08.30 AM - 12.00 PM</p>
+                  <p>Monday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Jakarta</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Mikail-->
+          <div class="modal fade" id="mikail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Mikail Azizi</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Monday 08.30 AM - 03.00 PM</p>
+                  <p>Tuesday 08.00 AM - 03.00 PM</p>
+                  <p>Wednesday 12.00 PM - 09.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bogor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Camel-->
+          <div class="modal fade" id="camel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Camel Sania</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Tuesday 08.30 AM - 03.00 PM</p>
+                  <p>Wednesday 08.00 AM - 03.00 PM</p>
+                  <p>Thursday 12.00 PM - 09.00 PM</p>
+                  <p>Friday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bogor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Rifqi-->
+          <div class="modal fade" id="rifqi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Rifqi Zaynudin</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Wednesday 08.30 AM - 03.00 PM</p>
+                  <p>Thursday 08.00 AM - 03.00 PM</p>
+                  <p>Friday 12.00 PM - 09.00 PM</p>
+                  <p>Saturday 08.30 AM - 12.00 PM</p>
+                  <p>Sunday 08.30 AM - 12.00 PM</p>
+                  <p>Monday 12.00 PM - 09.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bogor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Reyza-->
+          <div class="modal fade" id="reyza" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Reyza Abdul</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Monday 08.30 AM - 03.00 PM</p>
+                  <p>Tuesday 08.00 AM - 03.00 PM</p>
+                  <p>Wednesday 12.00 PM - 09.00 PM</p>
+                  <p>Thursday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Depok</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Mutiara-->
+          <div class="modal fade" id="mutiara" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Mutiara Annisa</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Tuesday 08.30 AM - 03.00 PM</p>
+                  <p>Wednesday 08.00 AM - 03.00 PM</p>
+                  <p>Thursday 12.00 PM - 09.00 PM</p>
+                  <p>Friday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Depok</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Syahra-->
+          <div class="modal fade" id="syahra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Syahra Lara</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Thursday 08.30 AM - 03.00 PM</p>
+                  <p>Friday 08.00 AM - 03.00 PM</p>
+                  <p>Saturday 12.00 PM - 09.00 PM</p>
+                  <p>Sunday 08.30 AM - 12.00 PM</p>
+                  <p>Monday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Depok</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Zoana-->
+          <div class="modal fade" id="zoana" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Zoana Azwana</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Monday 08.30 AM - 03.00 PM</p>
+                  <p>Tuesday 08.00 AM - 03.00 PM</p>
+                  <p>Wednesday 12.00 PM - 09.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bekasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Aditya-->
+          <div class="modal fade" id="aditya" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Aditya</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Tuesday 08.30 AM - 03.00 PM</p>
+                  <p>Wednesday 08.00 AM - 03.00 PM</p>
+                  <p>Thursday 12.00 PM - 09.00 PM</p>
+                  <p>Friday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bekasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Ralfino-->
+          <div class="modal fade" id="ralfino" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Ralfino Arya</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Wednesday 08.00 AM - 03.00 PM</p>
+                  <p>Thursday 12.00 PM - 09.00 PM</p>
+                  <p>Friday 08.30 AM - 12.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bekasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Ashira-->
+          <div class="modal fade" id="ashira" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Drg. Ashira Mita</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fw-light">
+                  <p>Friday 12.00 PM - 09.00 PM</p>
+                  <p>Saturday 08.30 AM - 12.00 PM</p>
+                  <p>Sunday 08.30 AM - 12.00 PM</p>
+                  <p>Monday 12.00 PM - 09.00 PM</p>
+                  <br>
+                  <p class="fw-normal">Branches : Bekasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END MODAL DOCTORS-->
+
+          <!--LOCATIONS-->
+          <div id="locations"></div>
+          <section>
+            <div class="mt-5 p-5" style="background-color: #F8F9F2;">
+              <div class=" container mb-5">
+                <span class="title fw-semibold" style="color:#88bc67"><center>Where You Can Find Us</center></span>
+                <div class="container">
+                  <p class="info mt-4 fw-normal text-center">No need to be worry, we're spread across where you can reach us easily.</p>
+                </div>
+              </div>
+              <div class="locations mb-5">
+                <div class="container">
+                  <div class="row mt-5 gy-3"> 
+                    <div class="col-md-4 col-lg-3">
+                      <div class="card card-location">
+                        <img src="image/Cabang/Jakarta.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-title fs-6 text-center">JAKARTA</p>
+                            <p class="card-text deskripsi">Jl. Prapanca Raya, Kby. Baru, South Jakarta</p>
+                            <p class="card-text deskripsi text-muted fw-light">Open Everyday 08.30 AM - 09.30 PM</p>
+                            <a href="https://maps.app.goo.gl/5YSe9UwLoKc6FHa19" class="btn button-maps btn-sm" target="_blank"><i class="bi bi-geo-alt"></i> Maps</a>
+                            <a href="https://wa.me//6285694207180" class="btn btn-whatsapp btn-sm" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                      <div class="card card-location">
+                        <img src="image/Cabang/Bogor.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-title fs-6 text-center">BOGOR</p>
+                            <p class="card-text deskripsi">Jl. Yasmin Raya, Bogor Bar, Bogor, West Java</p>
+                            <p class="card-text deskripsi text-muted fw-light">Open Everyday 08.30 AM - 09.30 PM</p>
+                            <a href="https://maps.app.goo.gl/YicNpYHC2brD2d2S8" class="btn button-maps btn-sm" target="_blank"><i class="bi bi-geo-alt"></i> Maps</a>
+                            <a href="https://wa.me//6285694207180" class="btn btn-whatsapp btn-sm" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                      <div class="card card-location">
+                        <img src="image/Cabang/Depok.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-title fs-6 text-center">DEPOK</p>
+                            <p class="card-text deskripsi">Jl. Bumi Pancoran Mas, Beji, Depok, West Java</p>
+                            <p class="card-text deskripsi text-muted fw-light">Open Everyday 08.30 AM - 09.30 PM</p>
+                            <a href="https://maps.app.goo.gl/YicNpYHC2brD2d2S8" class="btn button-maps btn-sm" target="_blank"><i class="bi bi-geo-alt"></i> Maps</a>
+                            <a href="https://wa.me//6285694207180" class="btn btn-whatsapp btn-sm" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                      <div class="card card-3 card-location">
+                        <img src="image/Cabang/Bekasi.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-title fs-6 text-center">BEKASI</p>
+                            <p class="card-text deskripsi">Jl. Galaxy Raya, Jaka Setia, Bekasi, West Java</p>
+                            <p class="card-text deskripsi text-muted fw-light">Open Everyday 08.30 AM - 09.30 PM</p>
+                            <a href="https://maps.app.goo.gl/H5dJHSqTc1LEvq3B8" class="btn button-maps btn-sm" target="_blank"><i class="bi bi-geo-alt"></i> Maps</a>
+                            <a href="https://wa.me//6285694207180" class="btn btn-whatsapp btn-sm" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                           </div>
+                         </div>
+                      </div>
+                    </div>
+                </div>                
+              </div>
+            </div>
+          </section>
+          <!--END LOCATIONS-->
+
+        <!--CONTENT DESCRIPTIONS-->
+        <div class="container mt-5 mb-5">
+          <div class="row gy-3 mt-5">
+            <div class="col-lg-6 left-content">
+              <div class="subtitle fw-semibold" style="color: #88bc67;">WHY MOON DENTAL?</div>
+              <p class="mt-3">We provide a variety of services for the well-being of your teeth and gums. With certified and expert doctors, we offer surgical procedures, braces installation, teeth whitening, denture placement, and comprehensive dental care for both adults and kids.</p>
+            </div>
+            <div class="col-lg-6 right-content">
+              <div class="subtitle fw-semibold" style="color: #88bc67;">BUNCH OF BIG PROMO!</div>
+              <p class="mt-3">With many promotions, surely you can access our services without worrying about expensive fees. Make sure to choose Moon Dental to become part of a healthy family. Once you subscribe, we won't forget about you! There will be many special promotions just for you.</p>
+            </div>
+          </div>
+        </div>
+        <!--END CONTENT DESCRIPTIONS-->
+
+        <!--PROMO-->
+          <div class="container mt-5">
+            <div class="row gy-3 mt-5">
+              <div class="col-lg-6">
+                <div class="card card-promo" >
+                  <img src="image/Promo/PROMO-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-semibold smaller-subtitle">PROMO FIRST RESERVATION</p>
+                    <p class="fw-light text-center">Hi new comers! Don't miss this excellent promo by coming at our branches and show us your name and phone number. Get your 50% off for all services only in Moon Dental Clinic!</p>
+                    <p class="text-center" style="color: #5DB8B1;">Valid Until : 31 December 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card card-promo" >
+                  <img src="image/Promo/PROMO-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-semibold smaller-subtitle">GET 20% OFF FOR BRACES INSTALLATION</p>
+                    <p class="fw-light text-center">Want your teeth to be straighter? Get braces at Moon Dental Clinic and enjoy a 20% discount. This promotion is ONLY valid at the Depok and Bekasi branches.</p>
+                    <p class="text-center" style="color: #5DB8B1;">Valid Until : 25 May 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card card-promo" >
+                  <img src="image/Promo/PROMO-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-semibold smaller-subtitle">BEST OF TEETH SCALING</p>
+                    <p class="fw-light text-center">Maintain your dental health with plaque removal. Get a 30% discount on teeth scaling at all Moon Dental Clinic branches. Take advantage of this promotion now!</p>
+                    <p class="text-center" style="color: #5DB8B1;">Valid Until : 16 July 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card card-promo" >
+                  <img src="image/Promo/PROMO-4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-semibold smaller-subtitle">MOONVERSARY BIG PROMO</p>
+                    <p class="fw-light text-center">Special 3rd Anniversary Offer! Enjoy a 40% discount if you attend on August 17 2024, at Moon Dental Clinic's Anniversary. This promo is valid at all branches.</p>
+                    <p class="text-center" style="color: #5DB8B1;">Valid Only at : 17 Agustus 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END PROMO-->
+
+          <!--TESTIMONI-->
+          <div class="mt-5" style="background-color: #F8F9F2;">
+            <div class=" container pt-5 pb-3">
+              <span class="title fw-semibold" style="color:#88bc67"><center>What They Said</center></span>
+            </div>
+            <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                  <!-- Full-width slides/quotes -->
+                  <div class="mySlides">
+                    <q class="quote">Great service. I once had a teeth scaling here, the dentist was very friendly, and the staff were also very helpful. The place is nice and comfortable. Bravo Moon Dental!</q>
+                    <p class="author">- Ayu Ting Ting</p>
+                  </div>
+
+                  <div class="mySlides">
+                    <q>I got a 50% discount during a promotion, but the staff and the dentist remained friendly and provided five-star service.</q>
+                    <p class="author">- Syahrini</p>
+                  </div>
+
+                  <div class="mySlides">
+                    <q>I won't choose any other dental clinic besides Moon Dental. The location is strategic, and the place is very comfortable, especially with excellent facilities and service. Moreover, the prices are affordable. Approved!</q>
+                    <p class="author">- Luna Maya</p>
+                  </div>
+
+                  <!-- Next/prev buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <!-- Dots/bullets/indicators -->
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+          </div>
+          <!--END TESTIMONI-->
+
+
+          <!--LAST CONTENT-->
+          <div class="container">
+            <div class="mb-4 mt-5">
+              <span class="title fw-semibold" style="color: #88bc67;"><center>You're on The Right Place!</center></span>
+            </div>
+            <div class=about-us>
+              <p class="info fw-normal text-center">Make sure you only come to Moon Dental Clinic! Our customers are part of the healthy family, and we will definitely provide the best service for you.</p>
+            </div>
+            </div>
+            <!--END LAST CONTENT-->
+
+            <!--MAPS-->
+            <div class="mt-5">
+              <iframe style="border:0; width: 100%; height: 250px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1122225953104!2d106.8071343!3d-6.2489403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f17091b54551%3A0xcc6b5faaaafe816a!2sJl.%20Prapanca%20Raya%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1709539502814!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!--END MAPS-->
+
+            <!--FOOTER-->
+            <div id="contact"></div>
+            <footer class="text-black pt-2" style="background-color: #F8F9F2;">
+              <div class="container mx-auto p-5">
+                <div class="row">
+
+                  <div class="col-md-3 col-sm-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold theme-text">MOON DENTAL</h5>
+                    <p>Dental and gum health solutions for your smile.</p>
+                    <i class="bi bi-facebook pe-2 ps-0"></i>
+                    <i class="bi bi-instagram p-2"></i>
+                    <i class="bi bi-twitter p-2"></i>
+                    <i class="bi bi-whatsapp p-2"></i>
+                  </div>
+
+                  <div class="col-md-2 col-sm-6 col-lg-2 col-xl-2 mx-auto mt-3 link-footer">
+                    <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Services</h5>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Dental Filling</a>
+                    </p>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Teeth Whitening</a>
+                    </p>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Orthodontic Braces</a>
+                    </p>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Dentures</a>
+                    </p>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Dental Care</a>
+                    </p>
+                    <p>
+                      <a href="reservation.html" class="link" style="text-decoration: none;">Tooth Extraction</a>
+                    </p>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Navigation</h5>
+                    <p>
+                      <a href="#" class="link" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                      <a href="#" class="link" style="text-decoration: none;">Services</a>
+                    </p>
+                    <p>
+                      <a href="#" class="link" style="text-decoration: none;">Doctors</a>
+                    </p>
+                    <p>
+                      <a href="#" class="link" style="text-decoration: none;">Locations</a>
+                    </p>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold theme-text">REACH US AT</h5>
+                    <p>
+                      <i class="fas fa-envelope mr-3"></i><span class="ps-3">Contact@moondental.com</span>
+                    </p>
+                    <p>
+                      <i class="fas fa-phone mr-3"></i><span class="ps-3">+62 8889 7776</span>
+                    </p>
+                  </div>
+
+                  </div>
+                  <hr>
+                    <div class="row align-items-center mt-5">
+                      <div class="mx-auto" style="width: 600px;">
+                        <p>Copyright ©2021 All rights reserved by
+                          <a href="#" style="text-decoration: none;">
+                            <span class="text-black">PT. Moon Dental Indonesia</span>
+                          </a>
+                        </p>
+                
+                    </div>
+                </div>
+              </div>
+                
+              </div>
+            </footer>
+            <!--END FOOTER-->
+
+          
+      <!--SCRIPT-->
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+        </script>     
+        
+        <!--RESERVATION FORM MODAL-->
+        <div class="modal fade" id="reservationform-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-semibold" id="staticBackdropLabel">Make a Reservation</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body fw-light">
+                <form action="">
+                <div class="form-group row">
+                  <label class="col-4 col-form-label fw-medium" for="text">Full Name</label> 
+                  <div class="col-8">
+                    <input id="text" name="text" placeholder="Your name" type="text" class="form-control" required="required">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="number" class="col-4 col-form-label fw-medium">Phone Number</label> 
+                  <div class="col-8">
+                    <input id="number" name="number" placeholder="Your phone number" type="text" class="form-control" required="required">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="text" class="col-4 col-form-label fw-medium">Email</label> 
+                  <div class="col-8">
+                    <input id="text" name="text" placeholder="Your Email" type="text" class="form-control" required="required">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="select3" class="col-4 col-form-label fw-medium">Branch</label> 
+                  <div class="col-8">
+                    <select id="select3" name="select3" class="form-select" required="required">
+                      <option value="Jakarta">Jakarta</option>
+                      <option value="Bogor">Bogor</option>
+                      <option value="Depok">Depok</option>
+                      <option value="Bekasi">Bekasi</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="select3" class="col-4 col-form-label fw-medium">Service</label> 
+                  <div class="col-8">
+                    <select id="select3" name="select3" class="form-select" required="required">
+                      <option value="Dental Filling">Dental Filling</option>
+                      <option value="Teeth Whitening">Teeth Whitening</option>
+                      <option value="Orthodontic Braces">Orthodontic Braces</option>
+                      <option value="Dentures">Dentures</option>
+                      <option value="Dental Care">Dental Care</option>
+                      <option value="Tooth Extraction">Tooth Extraction</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="textarea" class="col-4 col-form-label fw-medium">Note</label> 
+                  <div class="col-8">
+                    <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control" placeholder="Your note"></textarea>
+                  </div>
+                </div> 
+                <div class="form-group row">
+                  <div class="col-8">
+                    <button name="submit" type="submit" class="btn btn-reserve">SEND</button>
+                  </div>
+                </div>
+              </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </body>
+  </html>
