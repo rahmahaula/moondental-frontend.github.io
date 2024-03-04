@@ -78,6 +78,10 @@
     color: var(--main-color);
 }
 
+.offcanvas-body .nav-item {
+  padding-left: 0;
+}
+
 .next-icon{
     width: 18px;
     height: 18px;
